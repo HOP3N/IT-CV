@@ -1,0 +1,20 @@
+html:5 (-//-)
+Shift1+TAB (to create a structure)
+
+h1, h2, h3 (fonds)
+p (to create a paragraph in html)
+
+ctrl + / (comment)
+div (between put any info u want)
+[or] div [or] aside
+
+ol (1 -2-3 list) => li [list items] (how many 1-2-3s - then, how many "li's" to write down)
+[inside of li] - tag "a" [anchor] - (enabled link)
+ul (for dots-lists)
+
+img (for images)9:25 PM 7/29/2022
+
+tel: [+a]
+mailto: [+a]
+
+span (obhortka) 
