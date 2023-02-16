@@ -28,6 +28,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
+    text-transform: uppercase;
     line-height: 17px;
     color: #000000;
     margin-bottom: 20px;
@@ -43,7 +44,7 @@ body {
 }
 
 .about-description {
-    font-style: normal;
+    font-style: italic;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -62,7 +63,7 @@ body {
     font-size: 22px;
     line-height: 27px;
     color: #000000;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .projects-list {
@@ -113,8 +114,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     color: #fb6d3a;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin: 10px 0 5px 0;
 }
 
 .education-title {
@@ -132,8 +132,8 @@ body {
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    color: #a8a8a8;
-    margin-bottom: 8px;
+    color: #1e2939;
+    margin: 8px 0;
 }
 
 .line {
@@ -145,7 +145,7 @@ body {
 }
 
 .work-list {
-    padding:0;
+    padding: 0;
     margin-left: 23px;
 }
 
@@ -161,7 +161,7 @@ body {
 
 .sidebar {
     background-color: #1e2939;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     width: 370px;
 }
 
@@ -172,12 +172,17 @@ body {
 
 .contacts, 
 .tech-skills, 
-.soft-skills {
-    margin-left: 40px;
+.soft-skills,
+.languages { 
+    margin-left: 30px;
 }
 
 .contacts {
     margin-bottom: 50px;
+}
+
+.contact-title {
+    margin: 0 auto;
 }
 
 .tech-skills {
@@ -190,7 +195,7 @@ body {
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .contact-type {
@@ -239,6 +244,28 @@ body {
 }
 
 .soft-skills-text {
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.languages {
+    margin-top: 40px;
+}
+
+.languages-list {
+    color: #fff;
+    padding: 0;
+    margin-left: 23px;
+}
+
+.languages-item {
+    color: #fb6d3a;
+}
+
+.languages-text {
     color: #fff;
     font-style: normal;
     font-weight: normal;
